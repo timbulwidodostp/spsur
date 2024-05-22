@@ -7,9 +7,9 @@ install.packages("spsur")
 library("spsur")
 spsur = read.csv("https://raw.githubusercontent.com/timbulwidodostp/spsur/main/spsur/spsur.csv",sep = ";")
 # Estimate Spatial Seemingly Unrelated Regression Models Use spsur With (In) R Software
-spsur <- Dependen ~ Independen_1 + Independen_2 + Independen_3
-spsur <- spsurml(formula = spsur, data = spsur)
-summary(spsur)
+spsur_model <- Dependen ~ Independen_1 + Independen_2 + Independen_3
+estimation_spsur <- spsurml(formula = spsur_model, data = spsur)
+summary(estimation_spsur)
 # Spatial Seemingly Unrelated Regression Models Use spsur With (In) R Software
 # specification, estimation and testing of spatial and spatio-temporal SUR econometric models Use spsur With (In) R Software
 # Olah Data Semarang
