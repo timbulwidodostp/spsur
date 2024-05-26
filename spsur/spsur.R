@@ -4,6 +4,7 @@
 # Spatial Seemingly Unrelated Regression Models Use spsur With (In) R Software
 # specification, estimation and testing of spatial and spatio-temporal SUR econometric models Use spsur With (In) R Software
 install.packages("spsur")
+install.packages("utf8")
 library("spsur")
 spsur = read.csv("https://raw.githubusercontent.com/timbulwidodostp/spsur/main/spsur/spsur.csv",sep = ";")
 # Estimate Spatial Seemingly Unrelated Regression Models Use spsur With (In) R Software
