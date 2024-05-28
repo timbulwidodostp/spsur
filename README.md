@@ -3,6 +3,8 @@ Spatial Seemingly Unrelated Regression Models Use spsur With (In) R Software
 
 Specification, estimation and testing of spatial and spatio-temporal SUR econometric models Use spsur With (In) R Software
 
+https://www.youtube.com/watch?v=AvUQvQ-kNXg
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
